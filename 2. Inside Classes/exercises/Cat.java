@@ -31,6 +31,11 @@ public class Cat {
 	}
 
 	public static void main(String[] args) {
+
+		Cat mobyCat = new Cat("Moby");
+		mobyCat.meow();
+		mobyCat.printName();
+
 		/* Do the following things without changing the Cat class */
 
 		// 1. Make the Cat meow
